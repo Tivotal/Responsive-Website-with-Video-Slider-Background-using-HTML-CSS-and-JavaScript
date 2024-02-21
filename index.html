@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website with Video Background</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">packUp</a>
+
+      <div class="menu-btn"></div>
+
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Gallery</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </header>
+
+    <section class="home">
+      <video class="active" src="media/vid1.mp4" autoplay muted loop></video>
+      <video src="media/vid2.mp4" autoplay muted loop></video>
+      <video src="media/vid3.mp4" autoplay muted loop></video>
+
+      <div class="content">
+        <h1>explore the world <br /><span>around you</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quis
+          quo quisquam officiis natus consectetur, eaque obcaecati tempore
+          officia! Magnam doloribus perferendis porro voluptatem fugit ex cum
+          debitis quisquam officia.
+        </p>
+        <a href="#">Read more</a>
+      </div>
+
+      <div class="icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+
+      <div class="video-nav">
+        <div class="nav-item active"></div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
